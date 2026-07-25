@@ -1,4 +1,16 @@
 aid: creative-juice
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/creative-juice.png
 name: Creative Juice
 description: 'Creative Juice is a company surfaced as a portfolio company of index-ventures and added
   to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting
@@ -12,7 +24,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+x-enrichment:
+  last_run: '2026-07-18'
+  result: no-live-surface
+  note: >-
+    getjuice.com is registered (DigitalOcean nameservers) but publishes no A
+    record, so there is no reachable website, developer portal, documentation,
+    OpenAPI, or public packages to search or derive from. Domain-security and
+    security-program probes returned unreachable/none; npm and PyPI show no
+    first-party Creative Juice SDK. The provider appears defunct/parked (company
+    likely wound down). No artifacts could be added without fabrication.
 tags:
 - Company
 - Fintech
